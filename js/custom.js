@@ -1,5 +1,4 @@
 $(document).ready(function($){
-  "use strict"
   // preloader js =============>>>
   setTimeout(function() {
     $('body').addClass('loaded');
@@ -65,7 +64,6 @@ $(document).ready(function($){
         time: 4000
     });
   });
-
   // tilt hover effect of banner-img = >>>
     VanillaTilt.init(document.querySelector(".service-one"), {
       max: 20,
@@ -144,7 +142,6 @@ $(document).ready(function($){
         }
     }
   })
-
 });
 
 
