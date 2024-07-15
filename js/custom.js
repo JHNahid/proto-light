@@ -57,13 +57,13 @@ $(document).ready(function($){
         }
     }
   })
-  //  parallax-js ==================== >>>
-  jQuery(document).ready(function($) {
-    $('.counter').counterUp({
-        delay: 20,
-        time: 4000
-    });
-  });
+  // counter up ==================== >>>
+  // jQuery(document).ready(function($) {
+  //   $('.counter').counterUp({
+  //       delay: 20,
+  //       time: 4000
+  //   });
+  // });
   // tilt hover effect of banner-img = >>>
     VanillaTilt.init(document.querySelector(".service-one"), {
       max: 20,
