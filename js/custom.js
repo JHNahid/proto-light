@@ -11,10 +11,6 @@ $(document).ready(function($){
   });
   // MENU ============================ >>>
   $(".menu").sticky({topSpacing:0});
-  // 
-  function closeNav() {
-      document.getElementById("mySidenav");
-  }
   // typed =============>
   var typed = new Typed('.type', {
       strings: ['Web Developer',
