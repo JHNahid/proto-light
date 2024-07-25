@@ -13,6 +13,7 @@
     background: #f98065;
     border-bottom: 20px solid #f84b24;
 }
+
 #loader {
     display: block;
     position: relative;
@@ -30,6 +31,20 @@
     -webkit-animation: spin 1.7s linear infinite;
     animation: spin 1.7s linear infinite;
     z-index: 11;
+}
+.the-name{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h2{
+        font-size: 100px;
+        color: white;
+        font-weight: 900;
+        opacity: .4;
+    }
 }
 #loader:before {
     content: "";

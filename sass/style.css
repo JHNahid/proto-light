@@ -289,6 +289,21 @@ li {
   z-index: 11;
 }
 
+.the-name {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.the-name h2 {
+  font-size: 100px;
+  color: white;
+  font-weight: 900;
+  opacity: 0.4;
+}
+
 #loader:before {
   content: "";
   position: absolute;
