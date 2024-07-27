@@ -10,10 +10,9 @@
     height: 100%;
     z-index: 9999999;
     overflow: hidden;
-    background: #f98065;
+    background: white;
     border-bottom: 20px solid #f84b24;
 }
-
 #loader {
     display: block;
     position: relative;
@@ -30,7 +29,7 @@
     border-top-color: transparent;
     -webkit-animation: spin 1.7s linear infinite;
     animation: spin 1.7s linear infinite;
-    z-index: 11;
+    z-index: 111;
 }
 .the-name{
     height: 100%;
@@ -41,9 +40,30 @@
     text-align: center;
     h2{
         font-size: 100px;
-        color: white;
+        color: #ff5833;
         font-weight: 900;
         opacity: .4;
+        position: relative;
+        overflow: hidden;
+        &::before{
+            position: absolute;
+            content: "";
+            height: 30px;
+            left: -40px;
+            width: 110%;
+            transform: rotate(-3deg);
+            background: rgba(255, 255, 255, 0.493);
+            box-shadow: 0px 0px 9px 6px rgba(255, 255, 255, 0.493);
+            animation: namemove 1.5s infinite;
+            @keyframes namemove {
+                0%{
+                    top: -30%;
+                }
+                100%{
+                    top: 110%;
+                }
+              }
+        }
     }
 }
 #loader:before {

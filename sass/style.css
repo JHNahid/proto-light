@@ -267,7 +267,7 @@ li {
   height: 100%;
   z-index: 9999999;
   overflow: hidden;
-  background: #f98065;
+  background: white;
   border-bottom: 20px solid #f84b24;
 }
 
@@ -286,7 +286,7 @@ li {
   border: 3px solid #f84b24;
   border-top-color: transparent;
   animation: spin 1.7s linear infinite;
-  z-index: 11;
+  z-index: 111;
 }
 
 .the-name {
@@ -299,9 +299,30 @@ li {
 }
 .the-name h2 {
   font-size: 100px;
-  color: white;
+  color: #ff5833;
   font-weight: 900;
   opacity: 0.4;
+  position: relative;
+  overflow: hidden;
+}
+.the-name h2::before {
+  position: absolute;
+  content: "";
+  height: 30px;
+  left: -40px;
+  width: 110%;
+  transform: rotate(-3deg);
+  background: rgba(255, 255, 255, 0.493);
+  box-shadow: 0px 0px 9px 6px rgba(255, 255, 255, 0.493);
+  animation: namemove 1.5s infinite;
+}
+@keyframes namemove {
+  0% {
+    top: -30%;
+  }
+  100% {
+    top: 110%;
+  }
 }
 
 #loader:before {
