@@ -57,6 +57,10 @@ $(document).ready(function($){
         }
     }
   });
+  // counter ============= >>
+    $(".counter").counterUp({time:3000});
+
+
     VanillaTilt.init(document.querySelector(".service-one"), {
       max: 20,
       speed: 600,
