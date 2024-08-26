@@ -58,7 +58,7 @@ $(document).ready(function($){
     }
   });
   // counter ============= >>
-    $(".counter").counterUp({time:3000});
+    $(".counter").counterUp({time:2000});
 
 
     VanillaTilt.init(document.querySelector(".service-one"), {

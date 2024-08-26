@@ -14,6 +14,15 @@
 @media only screen and (max-width: 991px){
     section{
         padding: 50px 0px !important;
+    }header .menu .navbar{
+        border-bottom: 1px solid #FF5733;
+        padding: 0;
+    }
+    header .menu .navbar.offcanvas-header{
+        border-bottom: 1px solid #FF5733;
+    }
+    header .menu .navbar .container-fluid{
+        padding: 0 0 0 8px !important;
     }
     .navbar-toggler:hover{
         color: #FF5733;
@@ -22,19 +31,30 @@
 		color: white;
 		box-shadow: none;
         padding: 5px 12px;
+        height: 70px;
+        width: 70px;
 		border: 0;
-		border-radius: 3px;
+		border-radius: 0px;
         background: #FF5733;
 	}
+    .offcanvas-header{
+        border-bottom: 1px solid #FF5733;
+        padding: 0;
+    }
     .offcanvas-header .nav-btn-close{
         border: 0;
         outline: 0;
         padding:2px 10px;
-		border-radius: 3px;
+        height: 50px;
+        width: 50px;
+		border-radius: 0px;
         box-shadow: none;
         color: white;
         background: #FF5733;
 
+    }
+    header .menu .navbar .nav-item .nav-link{
+        font-size: 25px !important;
     }
     header .head .title{
         margin-top: 50px !important;
@@ -42,9 +62,6 @@
     }
     header .head .pragraph{
         margin-top: 120px !important;
-    }
-    header .menu .navbar .container-fluid{
-        padding: 8px 8px !important;
     }
     .project .gallery .product .itembox {
         height: 265px !important;
@@ -100,6 +117,9 @@
     }
 }
 @media only screen and (max-width: 540px){
+    header .head .title{
+        margin-top: 30px !important;
+    }
     header .position-img {
         transform: scale(1.9) !important;
         bottom: 14% !important;
@@ -108,7 +128,6 @@
         height: 340px !important;
         width: 74% !important;
     }
-    
     .footer .copyright {
         justify-content: center !important;
         flex-wrap: wrap !important;
