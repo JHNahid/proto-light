@@ -2,11 +2,6 @@
 /*======================
    01. Theme Base CSS
 =========================*/
-//font-family: 'IBM Plex Sans Condensed', sans-serif;
-// font-family: 'IBM Plex Sans Condensed', sans-serif;
-// font-family: 'Aref Ruqaa Ink', serif;
-// font-family: 'Tapestry', cursive;
-   
 
 *{
     margin: 0;
@@ -20,7 +15,6 @@ body {
     scroll-behavior: smooth;
 }
 body {
-    // position: relative;
     letter-spacing: 0.26px;
     font-weight:400;
     background: white;
@@ -46,7 +40,7 @@ img {
     max-width: 1200px;
 }
 p, tr td{
-    font-family: 'Poppins', sans-serif;
+    font-family: "Jost", sans-serif;
     font-weight: 400;
     font-size: 16px;
     letter-spacing: 0.26px;
@@ -55,7 +49,8 @@ p, tr td{
     margin: 0px;
 }
 h1{
-    font-family: 'Kanit', sans-serif;
+    font-family: "Teko", sans-serif;
+    // font-family: 'Kanit', sans-serif;
 }
 h3,
 h4,
@@ -63,19 +58,19 @@ h5,
 h6 {
     margin: 0;
     text-transform: capitalize;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Jost", sans-serif;
     color: 	#5a5a5a;
     font-size: 18px;
     font-weight: 600;
 }
 h2{
     font-size: 35px;
-    font-family: 'Kanit', sans-serif;
+    font-family: "Teko", sans-serif;
     font-weight: 500;
 }
 a{
     
-    font-family: 'Poppins', sans-serif;
+    font-family: "Jost", sans-serif;
     text-decoration: none; 
     margin:0px;
     font-size: 16px;
@@ -192,7 +187,7 @@ li{
 .global-title{
     h2{
         font-size: 40px;
-        margin-bottom: 20px;
+        margin-bottom: 10px;
         span{
             color: #FF5733;
         }

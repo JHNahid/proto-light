@@ -45,7 +45,7 @@ img {
 }
 
 p, tr td {
-  font-family: "Poppins", sans-serif;
+  font-family: "Jost", sans-serif;
   font-weight: 400;
   font-size: 16px;
   letter-spacing: 0.26px;
@@ -55,7 +55,7 @@ p, tr td {
 }
 
 h1 {
-  font-family: "Kanit", sans-serif;
+  font-family: "Teko", sans-serif;
 }
 
 h3,
@@ -64,7 +64,7 @@ h5,
 h6 {
   margin: 0;
   text-transform: capitalize;
-  font-family: "Poppins", sans-serif;
+  font-family: "Jost", sans-serif;
   color: #5a5a5a;
   font-size: 18px;
   font-weight: 600;
@@ -72,12 +72,12 @@ h6 {
 
 h2 {
   font-size: 35px;
-  font-family: "Kanit", sans-serif;
+  font-family: "Teko", sans-serif;
   font-weight: 500;
 }
 
 a {
-  font-family: "Poppins", sans-serif;
+  font-family: "Jost", sans-serif;
   text-decoration: none;
   margin: 0px;
   font-size: 16px;
@@ -205,7 +205,7 @@ li {
 
 .global-title h2 {
   font-size: 40px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .global-title h2 span {
   color: #FF5733;
@@ -393,18 +393,8 @@ header .menu .navbar .container-fluid .navbar-brand img {
   height: auto;
 }
 header .menu .navbar .active {
-  position: relative;
   transition: all 0.3s ease-in-out;
   color: #FF5733;
-}
-header .menu .navbar .active::before {
-  position: absolute;
-  content: "";
-  height: 2px;
-  width: 100%;
-  background: #FF5733;
-  right: 0;
-  bottom: 0;
 }
 header .menu .navbar .active a {
   transition: all 0.3s ease-in-out;
@@ -417,7 +407,7 @@ header .menu .navbar .nav-item .nav-link {
   color: black;
   font-size: 14px;
   transition: all 0.3s ease-in-out;
-  font-weight: 400;
+  font-weight: 500;
 }
 header .menu .navbar .nav-item .nav-link:hover {
   color: #FF5733;
@@ -437,13 +427,14 @@ header .head .title h2 {
   color: #FF5733;
 }
 header .head .title h1 {
-  font-size: 70px;
-  margin: 5px 0;
+  font-size: 77px;
+  margin-top: 20px;
   color: black;
   font-weight: 800;
   -webkit-text-stroke-width: 0.5px;
   -webkit-text-stroke-color: rgb(255, 255, 255);
   position: relative;
+  line-height: 60px;
 }
 header .head .title h3 {
   margin: 10px 0;
@@ -576,7 +567,7 @@ header .bottom-shadow {
   margin-right: 20px;
 }
 .about .about-text .d-flex .client-number h3 {
-  font-family: "Kanit", sans-serif;
+  font-family: "Teko", sans-serif;
   font-size: 35px;
   color: #FF5733;
 }
@@ -608,6 +599,7 @@ header .bottom-shadow {
   color: black;
   margin: 10px 0;
   font-size: 25px;
+  font-family: "Teko", sans-serif;
   transition: all 0.3s ease-in-out;
 }
 .service .service-wrapper a {

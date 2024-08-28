@@ -137,18 +137,8 @@ header{
                 }
             }
             .active{
-                position: relative;
                 transition: $transition;
                 color: $col1;
-                &::before{
-                    position: absolute;
-                    content: "";
-                    height: 2px;
-                    width: 100%;
-                    background: $col1;
-                    right: 0;
-                    bottom: 0;
-                }
                 a{
                     transition: $transition;
                     color: $col1 !important;
@@ -160,7 +150,7 @@ header{
                     color: $black;
                     font-size: 14px;
                     transition: $transition;
-                    font-weight: 400;
+                    font-weight: 500;
                     &:hover{
                         color: $col1;
                         transition: $transition;
@@ -183,13 +173,14 @@ header{
                 color: $col1;
             }
             h1{
-                font-size: 70px;
-                margin: 5px 0;
+                font-size: 77px;
+                margin-top: 20px;
                 color: $black;   
                 font-weight: 800;
                 -webkit-text-stroke-width: .5px;
                 -webkit-text-stroke-color: $white;
                 position: relative;
+                line-height: 60px;
             }
             h3{
                 margin: 10px 0;
@@ -333,7 +324,7 @@ header{
             .client-number{
                 margin-right: 20px;
                 h3{
-                    font-family: 'Kanit', sans-serif;
+                    font-family: "Teko", sans-serif;
                     font-size: 35px;
                     color: $col1;
                 }
@@ -369,6 +360,7 @@ header{
             color: $black;
             margin: 10px 0;
             font-size: 25px;
+            font-family: "Teko", sans-serif;
             transition: $transition;
         }
         a{
