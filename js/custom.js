@@ -140,6 +140,6 @@ $(document).ready(function($){
     })
   // Aos animation js ============= >>
     AOS.init({
-      offset: 150,
+      offset: 130,
      });
 });
