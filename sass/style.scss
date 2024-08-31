@@ -114,6 +114,7 @@ header{
         }
         .navbar{
             transform: all 0.1s ease-in-out;
+            backdrop-filter: blur(1px);
             &::before{
                 position: absolute;
                 content: "";
@@ -334,6 +335,36 @@ header{
             }
         }
     }
+    .experence-box{
+        padding: 25px;
+        background: $bg;
+        border-radius: 5px;
+        margin-bottom: 10px;
+        .academy-box{
+            display: flex;
+            justify-content: space-between;
+            .ab-left-side{
+                a{
+                    color: $black;
+                    font-weight: 500;
+                    margin-bottom: 5px;
+                    font-family: "Teko", sans-serif;
+                }
+                h4{
+                    color: $col1;
+                    font-size: 20px;
+                }
+            }
+            .ab-right-side{
+                span{
+                    font-family: "Teko", sans-serif;
+                }
+            }
+        }
+        .text{
+            margin-top: 8px;
+        }
+    }
 }
 // ==============  END ABOUT  =============== //
 .service{
@@ -347,14 +378,9 @@ header{
         border-radius: 15px;
         margin: 5px 0;
         transition: $transition;
-        span{
-            svg{
-                margin-top: 10px;
-                margin-left: 10px;
-                margin-bottom: 20px;
-                fill: $col1;
-                transform: scale(1.5);
-            }
+        .service-icon{
+            font-size: 35px;
+            color: $col1
         }
         h3{
             color: $black;
@@ -485,19 +511,20 @@ header{
 }
 // =============  END PROJECT  ============== //
 .auto-text-animation{
-    padding: 20px 0;
+    padding: 10px 0;
     background: #121111;
     marquee{
         transform: rotate(-1deg);
         background: #121111;
         span{
-            font-size: 80px;
+            font-family: "Teko", sans-serif;
+            font-size: 90px;
             margin-right: 20px;
             font-weight: 900;
         }
         .text-border{
             color: transparent;
-            -webkit-text-stroke: 3px #191b1c;
+            -webkit-text-stroke: 1px #dddddd;
         }
     }
 }

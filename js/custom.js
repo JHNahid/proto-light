@@ -60,7 +60,7 @@ $(document).ready(function($){
   // counter ============= >>
     $(".counter").counterUp({time:2000});
 
-
+  // service-hover-effect ============= >>
     VanillaTilt.init(document.querySelector(".service-one"), {
       max: 20,
       speed: 600,
@@ -98,44 +98,48 @@ $(document).ready(function($){
       })
     })
   // BLOG SLIDER ===================== >>>
-  $('.blog-slide').owlCarousel({
-    loop:true,
-    margin:10,
-    dots: false,
-    nav:true,
-    autoplay: true,
-    autoplayTimeout: 3000,
-    autoplayHoverPause: true,
-    autoplaySpeed: 3000,
-    navText:["<i class='far fa-long-arrow-left'></i>","<i class='fal fa-long-arrow-right'></i>"],
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:2
-        },
-        1000:{
-            items:3
-        }
-    }
-  })
+    $('.blog-slide').owlCarousel({
+      loop:true,
+      margin:10,
+      dots: false,
+      nav:true,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      autoplaySpeed: 3000,
+      navText:["<i class='far fa-long-arrow-left'></i>","<i class='fal fa-long-arrow-right'></i>"],
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:2
+          },
+          1000:{
+              items:3
+          }
+      }
+    })
   // clicent slider ================== >>>
-  $('.testimonial-slider').owlCarousel({
-    loop:true,
-    margin:10,
-    nav:true,
-    navText:["<i class='far fa-long-arrow-left'></i>","<i class='fal fa-long-arrow-right'></i>"],
-    responsive:{
-        0:{
-            items:1
-        },
-        600:{
-            items:2
-        },
-        1000:{
-            items:3
-        }
-    }
-  })
+    $('.testimonial-slider').owlCarousel({
+      loop:true,
+      margin:10,
+      nav:true,
+      navText:["<i class='far fa-long-arrow-left'></i>","<i class='fal fa-long-arrow-right'></i>"],
+      responsive:{
+          0:{
+              items:1
+          },
+          600:{
+              items:2
+          },
+          1000:{
+              items:3
+          }
+      }
+    })
+  // Aos animation js ============= >>
+    AOS.init({
+      offset: 150,
+     });
 });

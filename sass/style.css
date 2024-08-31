@@ -369,6 +369,8 @@ header .menu .navbar-expand-lg .navbar-nav {
 }
 header .menu .navbar {
   transform: all 0.1s ease-in-out;
+  -webkit-backdrop-filter: blur(1px);
+          backdrop-filter: blur(1px);
 }
 header .menu .navbar::before {
   position: absolute;
@@ -574,6 +576,32 @@ header .bottom-shadow {
 .about .about-text .d-flex .client-number p {
   margin: 0;
 }
+.about .experence-box {
+  padding: 25px;
+  background: #f5f8fc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+.about .experence-box .academy-box {
+  display: flex;
+  justify-content: space-between;
+}
+.about .experence-box .academy-box .ab-left-side a {
+  color: black;
+  font-weight: 500;
+  margin-bottom: 5px;
+  font-family: "Teko", sans-serif;
+}
+.about .experence-box .academy-box .ab-left-side h4 {
+  color: #FF5733;
+  font-size: 20px;
+}
+.about .experence-box .academy-box .ab-right-side span {
+  font-family: "Teko", sans-serif;
+}
+.about .experence-box .text {
+  margin-top: 8px;
+}
 
 .service {
   background: #f5f8fc;
@@ -588,12 +616,9 @@ header .bottom-shadow {
   margin: 5px 0;
   transition: all 0.3s ease-in-out;
 }
-.service .service-wrapper span svg {
-  margin-top: 10px;
-  margin-left: 10px;
-  margin-bottom: 20px;
-  fill: #FF5733;
-  transform: scale(1.5);
+.service .service-wrapper .service-icon {
+  font-size: 35px;
+  color: #FF5733;
 }
 .service .service-wrapper h3 {
   color: black;
@@ -719,7 +744,7 @@ header .bottom-shadow {
 }
 
 .auto-text-animation {
-  padding: 20px 0;
+  padding: 10px 0;
   background: #121111;
 }
 .auto-text-animation marquee {
@@ -727,13 +752,14 @@ header .bottom-shadow {
   background: #121111;
 }
 .auto-text-animation marquee span {
-  font-size: 80px;
+  font-family: "Teko", sans-serif;
+  font-size: 90px;
   margin-right: 20px;
   font-weight: 900;
 }
 .auto-text-animation marquee .text-border {
   color: transparent;
-  -webkit-text-stroke: 3px #191b1c;
+  -webkit-text-stroke: 1px #dddddd;
 }
 
 .blog {
