@@ -885,12 +885,25 @@ header .bottom-shadow {
   height: 100%;
   width: 100%;
 }
-.testimonial .testimonial-slider .client-item .client-details h3 {
+.testimonial .testimonial-slider .client-item .client-details a {
   font-size: 22px;
+  font-weight: 600;
   margin-bottom: 5px;
+  font-family: "Teko", sans-serif;
+  color: black;
+}
+.testimonial .testimonial-slider .client-item .client-details a:hover {
+  color: #FF5733;
 }
 .testimonial .testimonial-slider .client-item .client-details ul li {
   color: gold;
+  font-size: 14px;
+}
+.testimonial .testimonial-slider .client-item .p-text {
+  display: -webkit-box;
+  overflow: hidden;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 4;
 }
 .testimonial .testimonial-slider .client-item .quote {
   position: absolute;
