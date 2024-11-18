@@ -1,5 +1,4 @@
 $(document).ready(function($){
-  +
   // preloader js =============>>>
   setTimeout(function() {
     $('body').addClass('loaded');
